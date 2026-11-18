@@ -1,0 +1,199 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="QR9mlNWoAU6XdgrXSPB8">
+    <mxGraphModel dx="1312" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1560" pageHeight="1300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;fontStyle=1" value="Class Diagram: Sticky Notes (Django)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="380" x="590" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-18" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;module&amp;gt;&amp;gt;&lt;/span&gt;&lt;div&gt;notes/urls.py&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="370" x="330" y="140" as="geometry">
+            <mxRectangle height="30" width="140" x="160" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-19" parent="LUgN9_x2L5-_APl8o2Bd-18" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;font&gt;+ urlpatterns: list[path]&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;font&gt;&quot;&quot; → note_list&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&quot;note/&amp;lt;int:pk&amp;gt;/&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;note_detail&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&quot;note/new/&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;note_create&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&quot;note/&amp;lt;int:pk&amp;gt;/edit/&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;note_update&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&quot;note/&amp;lt;int:pk&amp;gt;/delete/&quot;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;→&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;note_delete&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="370" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-20" parent="LUgN9_x2L5-_APl8o2Bd-18" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="370" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-22" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;module&amp;gt;&amp;gt;&lt;/span&gt;&lt;div&gt;notes/view.py&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="350" x="340" y="400" as="geometry">
+            <mxRectangle height="30" width="140" x="160" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-23" parent="LUgN9_x2L5-_APl8o2Bd-22" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="350" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-24" parent="LUgN9_x2L5-_APl8o2Bd-22" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ note_list(request): HttpResponse&lt;/div&gt;&lt;div&gt;+ note_detail(request, pk): HttpResponse&lt;/div&gt;&lt;div&gt;+ note_create(request): HttpResponse&lt;/div&gt;&lt;div&gt;+ note_update(request, pk): HttpResponse&lt;/div&gt;&lt;div&gt;+ note_delete(request, pk): HttpResponse&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="350" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-25" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;templates&amp;gt;&amp;gt;&lt;/span&gt;&lt;div&gt;notes/templates/&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="350" x="910" y="400" as="geometry">
+            <mxRectangle height="30" width="140" x="160" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-26" parent="LUgN9_x2L5-_APl8o2Bd-25" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="base.html (layout, CSS link)&lt;div&gt;notes/note_list.html&lt;/div&gt;&lt;div&gt;notes/note_detail.html&lt;/div&gt;&lt;div&gt;notes/note_form.html&lt;/div&gt;&lt;div&gt;notes/note_confirm_delete.html&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="350" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-27" parent="LUgN9_x2L5-_APl8o2Bd-25" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="(each page {% extends &quot;base.html&quot; %})" vertex="1">
+          <mxGeometry height="40" width="350" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-28" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="NoteForm" vertex="1">
+          <mxGeometry height="140" width="350" x="70" y="660" as="geometry">
+            <mxRectangle height="30" width="140" x="160" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-29" parent="LUgN9_x2L5-_APl8o2Bd-28" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ Meta.model = Note&lt;div&gt;+ Meta.fields = [&quot;title&quot;, &quot;content&quot;, &quot;color&quot;]&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="350" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-30" parent="LUgN9_x2L5-_APl8o2Bd-28" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ is_valid(): bool (inherited)&lt;div&gt;+ save(): Note (inherited)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="350" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-31" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Note" vertex="1">
+          <mxGeometry height="220" width="340" x="600" y="640" as="geometry">
+            <mxRectangle height="30" width="140" x="160" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-32" parent="LUgN9_x2L5-_APl8o2Bd-31" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ id: int (primary key, automatic)&lt;div&gt;+ title: CharField(max_length=100)&lt;/div&gt;&lt;div&gt;+ content: TextField&lt;/div&gt;&lt;div&gt;+ color: CharField(choices, default=&quot;yellow&quot;)&lt;/div&gt;&lt;div&gt;+ created_at: DateTimeField(auto_now_add)&lt;/div&gt;&lt;div&gt;+ updated_at: DateTimeField(auto_now)&lt;/div&gt;&lt;div&gt;+ COLOR_CHOICES: list(class constant)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="340" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-33" parent="LUgN9_x2L5-_APl8o2Bd-31" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ __str__(): str&lt;div&gt;Meta: ordering = [&quot;-update_at&quot;]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="340" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-34" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="NoteAdmin" vertex="1">
+          <mxGeometry height="120" width="350" x="1060" y="660" as="geometry">
+            <mxRectangle height="30" width="140" x="160" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-35" parent="LUgN9_x2L5-_APl8o2Bd-34" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ list_display = (&quot;title&quot;, &quot;color&quot;, &quot;update_at&quot;)&lt;/div&gt;&lt;div&gt;+ search_fields = (&quot;title&quot;, &quot;content&quot;)&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="350" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-36" parent="LUgN9_x2L5-_APl8o2Bd-34" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="(all methods inherited)" vertex="1">
+          <mxGeometry height="30" width="350" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-37" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;Django&amp;gt;&amp;gt;&lt;/span&gt;&lt;div&gt;forms.ModelForm&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="270" x="110" y="960" as="geometry">
+            <mxRectangle height="30" width="140" x="160" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-38" parent="LUgN9_x2L5-_APl8o2Bd-37" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;- (form fields from a model)&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="270" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-39" parent="LUgN9_x2L5-_APl8o2Bd-37" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ is_valid(): bool&lt;div&gt;+ save(): Model&lt;/div&gt;&lt;div&gt;+ errors: dict&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="270" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-40" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;Django&amp;gt;&amp;gt;&lt;/span&gt;&lt;div&gt;models.Model&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="270" x="640" y="960" as="geometry">
+            <mxRectangle height="30" width="140" x="160" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-41" parent="LUgN9_x2L5-_APl8o2Bd-40" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- (database fields and ORM)" vertex="1">
+          <mxGeometry height="40" width="270" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-42" parent="LUgN9_x2L5-_APl8o2Bd-40" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ save(): None&lt;div&gt;+ delete(): None&lt;/div&gt;&lt;div&gt;+ objects: Manager&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="270" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-43" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;Django&amp;gt;&amp;gt;&lt;/span&gt;&lt;div&gt;admin.ModelsAdmin&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="270" x="1120" y="960" as="geometry">
+            <mxRectangle height="30" width="140" x="160" y="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-44" parent="LUgN9_x2L5-_APl8o2Bd-43" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="- (admin page settings)" vertex="1">
+          <mxGeometry height="40" width="270" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-45" parent="LUgN9_x2L5-_APl8o2Bd-43" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="+ (add / change / delete pages)&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="270" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-46" edge="1" parent="1" source="LUgN9_x2L5-_APl8o2Bd-20" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.514;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.518;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="LUgN9_x2L5-_APl8o2Bd-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="490" as="sourcePoint" />
+            <mxPoint x="530" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-47" connectable="0" parent="LUgN9_x2L5-_APl8o2Bd-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="routes requests to&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="-0.2851" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-48" edge="1" parent="1" source="LUgN9_x2L5-_APl8o2Bd-24" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=-0.011;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" target="LUgN9_x2L5-_APl8o2Bd-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="490" as="sourcePoint" />
+            <mxPoint x="630" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-49" connectable="0" parent="LUgN9_x2L5-_APl8o2Bd-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="renders" vertex="1">
+          <mxGeometry relative="1" x="0.0162" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-50" edge="1" parent="1" source="LUgN9_x2L5-_APl8o2Bd-24" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.4;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.603;entryY=-0.028;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="LUgN9_x2L5-_APl8o2Bd-28" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="570" as="sourcePoint" />
+            <mxPoint x="630" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-51" connectable="0" parent="LUgN9_x2L5-_APl8o2Bd-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="validates with" vertex="1">
+          <mxGeometry relative="1" x="-0.0039" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-52" edge="1" parent="1" source="LUgN9_x2L5-_APl8o2Bd-24" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.571;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.391;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="LUgN9_x2L5-_APl8o2Bd-31" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="570" as="sourcePoint" />
+            <mxPoint x="710" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-53" connectable="0" parent="LUgN9_x2L5-_APl8o2Bd-52" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="queries (ORM)" vertex="1">
+          <mxGeometry relative="1" x="0.0576" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-54" edge="1" parent="1" source="LUgN9_x2L5-_APl8o2Bd-28" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="LUgN9_x2L5-_APl8o2Bd-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="610" as="sourcePoint" />
+            <mxPoint x="710" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-55" connectable="0" parent="LUgN9_x2L5-_APl8o2Bd-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="builds form from&amp;nbsp;" vertex="1">
+          <mxGeometry relative="1" x="0.0399" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-56" edge="1" parent="1" source="LUgN9_x2L5-_APl8o2Bd-35" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.997;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="LUgN9_x2L5-_APl8o2Bd-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="610" as="sourcePoint" />
+            <mxPoint x="710" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-57" connectable="0" parent="LUgN9_x2L5-_APl8o2Bd-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="magages" vertex="1">
+          <mxGeometry relative="1" x="-0.0742" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-58" edge="1" parent="1" source="LUgN9_x2L5-_APl8o2Bd-30" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.457;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="LUgN9_x2L5-_APl8o2Bd-37" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="980" as="sourcePoint" />
+            <mxPoint x="540" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-60" edge="1" parent="1" source="LUgN9_x2L5-_APl8o2Bd-33" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.444;entryY=-0.022;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.47;exitY=1.026;exitDx=0;exitDy=0;exitPerimeter=0;" target="LUgN9_x2L5-_APl8o2Bd-40" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="765.28" y="863.6" as="sourcePoint" />
+            <mxPoint x="540" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-61" edge="1" parent="1" source="LUgN9_x2L5-_APl8o2Bd-36" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.604;exitY=1.121;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.481;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="LUgN9_x2L5-_APl8o2Bd-43" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1020" y="980" as="sourcePoint" />
+            <mxPoint x="1070" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LUgN9_x2L5-_APl8o2Bd-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="Green = my classes / Blue/purple = my modules / Yellow = templates / Grey = Django class / Dashed arrow = uses / depends on / + public, - internal&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="1240" x="210" y="1240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
